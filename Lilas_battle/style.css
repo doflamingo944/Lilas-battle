@@ -1,0 +1,33 @@
+
+#container {
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  grid-template-rows: 100px 150px 350px 40px;
+  border: 5px solid green;
+}
+
+#title {
+  grid-column: 1 / 4;
+}
+
+#infoBar {
+  grid-column: 1 / 4;
+}
+
+button {
+  border: 4px solid powderblue;
+  border-radius: 50%;
+  transition-duration: 0.4s;
+  margin-top: 5px;
+}
+
+button:hover {
+  background-color: goldenrod;
+}
+
+button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(5px);
+  background-color : red;
+}
+
